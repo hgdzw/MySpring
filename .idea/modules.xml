@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MySpring.iml" filepath="$PROJECT_DIR$/MySpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dzw-spring-annotation/dzw-spring-annotation.iml" filepath="$PROJECT_DIR$/dzw-spring-annotation/dzw-spring-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dzw-spring-aop/dzw-spring-aop.iml" filepath="$PROJECT_DIR$/dzw-spring-aop/dzw-spring-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dzw-spring-context/dzw-spring-context.iml" filepath="$PROJECT_DIR$/dzw-spring-context/dzw-spring-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dzw-spring-step2/dzw-spring-step2.iml" filepath="$PROJECT_DIR$/dzw-spring-step2/dzw-spring-step2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dzw-spring-xmlread3/dzw-spring-xmlread3.iml" filepath="$PROJECT_DIR$/dzw-spring-xmlread3/dzw-spring-xmlread3.iml" />
+    </modules>
+  </component>
+</project>

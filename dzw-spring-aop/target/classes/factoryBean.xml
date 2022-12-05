@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="myFactoryBean" class="test.java.cn.dzw.springframwork.test.bean.MyFactoryBean"></bean>
+
+    <bean id="myEventListener" class="test.java.cn.dzw.springframwork.test.event.MyEventListener"></bean>
+
+
+</beans>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dzw-spring-step2" />
+        <module name="dzw-spring-xmlread3" />
+        <module name="dzw-spring-aop" />
+        <module name="dzw-spring-annotation" />
+        <module name="dzw-spring-context" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dzw-spring-annotation" target="8" />
+      <module name="dzw-spring-aop" target="8" />
+      <module name="dzw-spring-context" target="8" />
+      <module name="dzw-spring-step2" target="6" />
+      <module name="dzw-spring-xmlread3" target="6" />
+      <module name="MySpring" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

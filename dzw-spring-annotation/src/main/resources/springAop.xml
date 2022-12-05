@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="userDao" class="test.java.cn.dzw.springframwork.test.bean.UserDao"/>
+    <bean id="beforeAdvice" class="test.java.cn.dzw.springframwork.test.aop.PeopleServiceBeforeAdvice"/>
+    <bean class="cn.dzw.springframwork.aop.framework.autoProxy.DefaultAdvisorAutoProxyCreator"/>
+
+    <bean id="methodInterceptor" class="cn.dzw.springframwork.aop.framework.adapter.MethodBeforeAdviceInterceptor">
+        <property name="advice" ref="beforeAdvice"/>
+    </bean>
+
+    <bean id="pointcutAdvisor" class="cn.dzw.springframwork.aop.aspectj.AspectJExpressionPointcutAdvisor">
+        <property name="expression" value="execution(* test.java.cn.dzw.springframwork.test.bean.IPeopleService.*(..))"/>
+        <property name="advice" ref="methodInterceptor"/>
+    </bean>
+
+    <bean id="peopleService" class="test.java.cn.dzw.springframwork.test.bean.PeopleService"/>
+
+
+</beans>
